@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  background: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  display: flex;
+  justify-content: center;
+  margin: 124px 0;
+}
+
+main {
+  width: 600px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > div {
+  padding: 40px;
+}
+
+main > div:first-child {
+  padding-bottom: 0;
+}
+
+main > div:last-child {
+  padding-top: 0px;
+}
+
+.main-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+.preparation {
+  background: hsl(330, 100%, 98%);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.preparation dl {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.preparation li {
+  margin-left: 24px;
+}
+
+.preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation li span {
+  font-weight: 600;
+  padding-left: 16px;
+}
+
+.ingredients {
+  padding: 0;
+}
+
+.ingredients dl {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.ingredients li {
+  padding-left: 16px;
+  margin-left: 24px;
+  font-size: .9rem;
+}
+
+.ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  margin: 40px 0;
+  height: 1px;
+  color: hsl(30, 54%, 90%);
+  background-color: hsl(30, 54%, 90%);
+}
+
+.instructions {
+  padding: 0;
+}
+
+.instructions dl {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.instructions li {
+  padding-left: 16px;
+  margin-left: 24px;
+  margin-bottom: 8px;
+  font-size: .9rem;
+}
+
+.instructions span {
+  font-weight: 600;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  padding: 8px 0;
+}
+
+td:first-child {
+  padding-left: 40px;
+}
+
+td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  main {
+    border-radius: 0;
+  }
+  .main-img {
+    padding: 0;
+  }
+  .main-img img {
+    border-radius: 0;
+  }
+}
